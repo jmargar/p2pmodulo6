@@ -1,5 +1,5 @@
 <form method="get" action="/quizes?search=value"> 
-	<a>Buscar preguntas: </a>
+	<p>Buscar preguntas: </p>
 	<input type="text" name="search" value="" />
 	<input type="submit" value="Enviar" />
 </form>
@@ -8,4 +8,5 @@
 <% var i; for (i=0; i<quizes.length; i++) { %>
 	<tr><td><a href="quizes/<%= quizes[i].id %>"><%= quizes[i].pregunta %></a></td></tr>
 <% } %>
-</table>
+</table><p>
+<a href="/quizes/new"><button type="button">Crear pregunta</button></a>

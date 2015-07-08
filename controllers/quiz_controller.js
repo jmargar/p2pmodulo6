@@ -13,7 +13,6 @@ exports.load = function(req,res,next,quizId){
 };
 
 // GET /quizes
-//, order: 'pregunta ASC'}
 exports.index = function(req, res) {
 	var query = { order: 'pregunta ASC' };
 

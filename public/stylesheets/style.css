@@ -11,3 +11,6 @@ footer 					{background: #eee; text-align: center;}
 nav span 				{margin: 0px 10px 0px 0px;}
 
 #ErrorMsgs				{color: #f61; font-size: smaler;}
+
+table#statistics		{ margin: 25px 0; }
+table#statistics tr td	{ padding: 5px 10px; border-bottom: 1px solid #999; }
